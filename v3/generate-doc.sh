@@ -46,6 +46,7 @@ generate() {
 
 # English
 generate "en"
+generate "es"
 
  
 echo "Finished generating documents for OWASP Top 10 Proactive Control"
