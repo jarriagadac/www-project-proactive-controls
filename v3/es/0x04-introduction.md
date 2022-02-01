@@ -1,40 +1,45 @@
 ---
 
 layout: col-document
-tags: OWASP Top Ten Proactive Controls 2018, Intro
-document: OWASP Top Ten Proactive Controls 2018
+tags: OWASP Top Ten Controles Proactivos 2018, Introducción
+document: OWASP Top Ten Controles Proactivos 2018
 order: 4
 
 ---
 
-# Introduction
-The OWASP Top Ten Proactive Controls 2018 is a list of security techniques that should be considered for every software development project. This document is written for developers to assist those new to secure development.
+# Introducción
 
-One of the main goals of this document is to provide concrete practical guidance that helps developers build secure software. These techniques should be applied proactively at the early stages of software development to ensure maximum effectiveness.
+El OWASP Top Ten Controles Proactivos 2018 es una lista de técnicas de seguridad que deben tenerse en cuenta para cada proyecto de desarrollo de software. Este documento está escrito para asistir a los aquellos desarrolladores nuevos en el desarrollo seguro.
 
-## The Top 10 Proactive Controls
-The list is ordered by importance with list item number 1 being the most important:
+Uno de los principales objetivos de este documento es proporcionar una guía práctica que ayude a los desarrolladores a crear software seguro. Estas técnicas deben aplicarse de forma proactiva en las primeras etapas del desarrollo de software para garantizar la máxima eficacia.
 
-* C1: Define Security Requirements
-* C2: Leverage Security Frameworks and Libraries
-* C3: Secure Database Access
-* C4: Encode and Escape Data
-* C5: Validate All Inputs
-* C6: Implement Digital Identity
-* C7: Enforce Access Controls
-* C8: Protect Data Everywhere
-* C9: Implement Security Logging and Monitoring
-* C10: Handle All Errors and Exceptions
+## The Top 10 Controles Proactivos
 
-## How this List Was Created
+La lista está ordenada por importancia, siendo el elemento número 1 de la lista el más importante:
 
-This list was originally created by the current project leads with contributions from several volunteers. The document was then shared globally so even anonymous suggestions could be considered. Hundreds of changes were accepted from this open community process.
+* C1: Definir requisitos de seguridad
+* C2: Aprovechar Marcos de Trabajo y Librerías de Seguridad
+* C3: Acceso seguro a la Base de Datos
+* C4: Codificar y escapar datos
+* C5: Validar todas las entradas
+* C6: Implementar Identidad Digital
+* C7: Hacer cumplir los Controles de Acceso
+* C8: Proteger Datos en todas partes
+* C9: Implementar Registro y Monitoreo de Seguridad
+* C10: Manejar todos los Errores y Excepciones
 
-## Target Audience
-This document is primarily written for developers. However, development managers, product owners, Q/A professionals, program managers, and anyone involved in building software can also benefit from this document. 
+## Cómo se creó esta Lista
 
-## How to Use this Document
-This document is intended to provide initial awareness around building secure software. This document will also provide a good foundation of topics to help drive introductory software security developer training. These controls should be used consistently and thoroughly throughout all applications. However, this document should be seen as a starting point rather than a comprehensive set of techniques and practices. A full secure development process should include comprehensive requirements from a standard such as the OWASP ASVS in addition to including a range of software development activities described in maturity models such as [OWASP SAMM](https://www.owasp.org/index.php/OWASP_SAMM_Project) and [BSIMM](https://www.bsimm.com/).
+Esta lista fue creada originalmente por los líderes del proyecto actual con contribuciones de varios voluntarios. Luego, el documento se compartió a nivel mundial para que incluso las sugerencias anónimas pudieran ser consideradas. Se aceptaron cientos de cambios de este proceso comunitario abierto.
 
-## Link to the OWASP Top 10 Project
-The OWASP Top 10 Proactive Controls is similar to the [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project) but is focused on defensive techniques and controls as opposed to risks. Each technique or control in this document will map to one or more items in the *risk based* OWASP Top 10. This mapping information is included at the end of each control description.
+## Público Objetivo
+
+Este documento está escrito principalmente para desarrolladores. Sin embargo, los gerentes de desarrollo, los propietarios de productos, los profesionales de Q/A, los gerentes de programas y cualquier persona involucrada en la construcción de software también pueden beneficiarse de este documento.
+
+## Cómo utilizar este Documento
+
+Este documento está destinado a proporcionar una conciencia inicial sobre la creación de software seguro. Este documento también proporcionará una buena base de temas para ayudar a impulsar la capacitación introductoria de desarrolladores de seguridad de software. Estos controles se deben usar de manera consistente y exhaustiva en todas las aplicaciones. Sin embargo, este documento debe verse como un punto de partida en lugar de un conjunto completo de técnicas y prácticas. Un proceso de desarrollo completamente seguro debe incluir requisitos completos de un estándar como [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/), además de incluir una variedad de actividades de desarrollo de software descritas en modelos de madurez como [OWASP SAMM] (https://owasp.org/www-project-samm/) y [BSIMM](https://www.bsimm.com/).
+
+## Enlace al proyecto OWASP Top 10
+
+El OWASP Top 10 Controles Proactivos es similar al [OWASP Top 10](https://owasp.org/Top10/) pero se centra en técnicas y controles defensivos en lugar de riesgos. Cada técnica o control en este documento se mapea a uno o más elementos *basados en riesgos* en el OWASP Top 10. Esta información de mapeo se incluye al final de cada descripción de control.

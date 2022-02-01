@@ -3,30 +3,35 @@
 layout: col-document
 author:
 contributors:
-tags: OWASP Top Ten Proactive Controls 2018, Document Structure
-document: OWASP Top Ten Proactive Controls 2018
+tags: OWASP Top Ten Controles Proactivos 2018, Estuctura del Documento
+document: OWASP Top Ten Controles Proactivos 2018
 order: 3
 
 ---
 
-# Document Structure
-This document is structured as a list of security controls. Each control is described as follows:
+# Estructura del Documento
+
+Este documento está estructurado como una lista de controles de seguridad. Cada control se describe a continuación:
+
+## Cx: Nombre del Control
+
+### Descripción
+
+Una descripción detallada del control que incluye buenas prácticas a tener en cuenta.
+
+### Implementación
+
+Buenas prácticas de implementación y ejemplos para ilustrar cómo implementar cada control.
+
+### Vulnerabilidades Prevenidas
+
+Listado de vulnerabilidades prevenidas o riesgos abordados (OWASP TOP 10 Risk, CWE, etc.).
+
+### Referencias
+
+Lista de referencias para estudio adicional (hoja de trucos de OWASP, pautas de refuerzo de seguridad, etc.).
 
 
-## Cx: Control Name
+### Herramientas
 
-### Description
-A detailed description of the control including some best practices to consider.
-
-### Implementation
-Implementation best practices  and examples to illustrate how to implement each control.
-
-### Vulnerabilities Prevented
-List of prevented vulnerabilities or risks addressed (OWASP TOP 10 Risk, CWE, etc.)
-
-### References
-List of references for further study (OWASP Cheat sheet, Security Hardening Guidelines, etc.)
-
-
-### Tools
-Set of tools/projects to easily introduce/integrate security controls into your software.
+Conjunto de herramientas/proyectos para introducir/integrar fácilmente controles de seguridad en su software.

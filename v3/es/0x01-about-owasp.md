@@ -1,18 +1,17 @@
 ---
 
 layout: col-document
-tags: OWASP Top Ten Proactive Controls 2018, AboutOWASP
-document: OWASP Top Ten Proactive Controls 2018
+tags: OWASP Top Ten Controles Proactivos 2018, AcercaDeOWASP
+document: OWASP Top Ten Controles Proactivos 2018
 order: 1
-permalink: v3/en/
+permalink: v3/es/
 
 ---
 
-# About OWASP
+# Acerca de OWASP
 
+El *Proyecto Abierto de Seguridad de Aplicaciones Web* (OWASP, por su siglas en inglés) es una organización benéfica educativa sin fines de lucro [501(c)(3)](https://www.501c3.org/what-is-a-501c3/) dedicada a permitir que las organizaciones diseñen, desarrollen, adquieran, operen y mantengan software seguro. Todas las herramientas, documentos, foros y capítulos de OWASP son gratuitos y están abiertos a cualquier persona interesada en mejorar la seguridad de las aplicaciones. Nos puede encontrar en [www.owasp.org](https://www.owasp.org).
 
-The *Open Web Application Security Project* (OWASP) is a 501c3 non for profit educational charity dedicated to enabling organizations to design, develop, acquire, operate, and maintain secure software. All OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We can be found at [www.owasp.org](https://www.owasp.org).
+OWASP es un nuevo tipo de organización. Nuestra libertad frente a las presiones comerciales nos permiten brindar información imparcial, práctica y rentable sobre la seguridad de las aplicaciones.
 
-OWASP is a new kind of organization. Our freedom from commercial pressures allows us to provide unbiased, practical, cost effective information about application security.
-
-OWASP is not affiliated with any technology company. Similar to many open source software projects, OWASP produces many types of materials in a collaborative and open way. The OWASP Foundation is a not-for-profit entity that ensures the project's long-term success.
+OWASP no está afiliado a ninguna empresa de tecnología. Al igual que muchos proyectos de software código abierto, OWASP produce muchos tipos de material de forma colaborativa y abierta. La fundación OWASP es una entidad sin fines de lucro que vela por el éxito a largo plazo del proyecto.
