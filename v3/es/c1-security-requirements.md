@@ -1,67 +1,73 @@
 ---
 
 layout: col-document
-tags: OWASP Top Ten Proactive Controls 2018, C1
+tags: OWASP Top Ten Controles Proactivos 2018, C1
 document: OWASP Top Ten Proactive Controls 2018
 order: 5
 
 ---
 
-# C1: Define Security Requirements
+# C1: Definir Requisitos de Seguridad 
 
-## Description
+## Descripción
 
-A security requirement is a statement of needed security functionality that ensures one of many different security properties of software is being satisfied. Security requirements are derived from industry standards, applicable laws, and a history of past vulnerabilities. Security requirements define new features or additions to existing features to solve a specific security problem or eliminate a potential vulnerability.
+Un requisito de seguridad es una declaración de la funcionalidad de seguridad necesaria que garantiza que se satisfaga una de las muchas propiedades de seguridad diferentes del software. Los requisitos de seguridad se derivan de los estándares de la industria, las leyes aplicables y un historial de vulnerabilidades pasadas. Los requisitos de seguridad definen nuevas características o adiciones a las características existentes para resolver un problema de seguridad específico o eliminar una vulnerabilidad potencial.
 
-Security requirements provide a foundation of vetted security functionality for an application. Instead of creating a custom approach to security for every application, standard security requirements allow developers to reuse the definition of security controls and best practices. Those same vetted security requirements provide solutions for security issues that have occurred in the past. Requirements exist to prevent the repeat of past security failures.
+Los requisitos de seguridad proporcionan una base para la funcionalidad de seguridad examinada de una aplicación. En lugar de crear un enfoque personalizado de seguridad para cada aplicación, los requisitos de seguridad estándar permiten a los desarrolladores reutilizar la definición de controles de seguridad y mejores prácticas. Esos mismos requisitos de seguridad examinados brindan soluciones para problemas de seguridad que ocurrieron en el pasado. Los requisitos existen para evitar repetir fallas de seguridad del pasado.
 
-### The OWASP ASVS
-[The OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) is a catalog of available security requirements and verification criteria. OWASP ASVS  can be a source of detailed security requirements for development teams.
+### El OWASP ASVS
 
-Security requirements are categorized into different buckets based on a shared higher order security function. For example, the ASVS contains categories such as authentication, access control, error handling / logging, and web services. Each category contains a collection of requirements that represent the best practices for that category drafted as verifiable statements.
+El [Estándar de Verificación de Seguridad en Aplicaciones (ASVS, por sus siglas en inglés)](https://owasp.org/www-project-application-security-verification-standard/) es un catálogo existente de requisitos de seguridad y criterios de verificación. OWASP ASVS puede ser una fuente de requisitos de seguridad detallados para los equipos de desarrollo.
 
-### Augmenting Requirements with User Stories and Misuse Cases
+Los requisitos de seguridad se clasifican en diferentes categorías según una función de seguridad de orden superior compartida. Por ejemplo, el ASVS contiene categorías como autenticación, control de acceso, manejo/registro de errores y servicios web. Cada categoría contiene una colección de requisitos que representan las mejores prácticas para esa categoría redactadas como declaraciones verificables.
 
-The ASVS requirements are basic verifiable statements which can be expanded upon with user stories and misuse cases. The advantage of a user story or misuse case is that it ties the application to exactly what the user or attacker does to the system, versus describing what the system offers to the user. 
+### Aumento de los requisitos con historias de usuarios y casos de uso indebido
 
-Here is an example of expanding on an ASVS 3.0.1 requirement. From the "Authentication Verification Requirements" section of ASVS 3.0.1, requirement 2.19 focuses on default passwords.
+Los requisitos de ASVS son declaraciones básicas verificables que se pueden ampliar con historias de usuarios y casos de uso indebido. La ventaja de una historia de usuario o un caso de uso indebido es que vincula la aplicación exactamente con lo que el usuario o atacante le hace al sistema, en lugar de describir lo que el sistema ofrece al usuario.
 
-    2.19 Verify there are no default passwords in use for the application framework 
-        or any components used by the application (such as "admin/password").
+Este es un ejemplo de cómo expandir un requisito de ASVS 3.0.1. De la sección "Requisitos de verificación de autenticación" de ASVS 3.0.1, el requisito 2.19 se centra en las contraseñas por defecto.
 
-This requirement contains both an action to verify that no default passwords exist, and also carries with it the guidance that no default passwords should be used within the application.
+    2.19 Verifique que no haya contraseñas por defecto en uso para el marco de trabajo de la aplicación o cualquier componente utilizado por la aplicación (como "admin/contraseña").
 
-A user story focuses on the perspective of the user, administrator, or attacker of the system, and describes functionality based on what a user wants the system to do for them. A user story takes the form of "As a user, I can do x, y, and z".
+Este requisito contiene una acción para verificar que no existan contraseñas predeterminadas y también lleva consigo la guía de que no se deben usar contraseñas predeterminadas dentro de la aplicación.
 
-    As a user, I can enter my username and password to gain access to the application.
-    As a user, I can enter a long password that has a maximum of 1023 characters.
+Una historia de usuario se centra en la perspectiva del usuario, administrador o atacante del sistema y describe la funcionalidad en función de lo que el usuario quiere que el sistema haga por él. Una historia de usuario toma la forma de "Como usuario, puedo hacer a, b y c".
 
-When the story is focused on the attacker and their actions, it is referred to as a misuse case.
+    Como usuario, puedo ingresar mi nombre de usuario y contraseña para acceder a la aplicación.
+    Como usuario, puedo ingresar una contraseña larga que tenga un máximo de 1023 caracteres.
 
-    As an attacker, I can enter in a default username and password to gain access.
-    
+Cuando la historia se centra en el atacante y sus acciones, se habla de un caso de uso indebido.
 
-This story contains the same message as the traditional requirement from ASVS, with additional user or attacker details to help make the requirement more testable.
+    Como atacante, puedo ingresar un nombre de usuario y una contraseña predeterminados para obtener acceso.
 
-## Implementation
-Successful use of security requirements involves four steps. The process includes discovering / selecting, documenting, implementing, and then confirming correct implementation of new security features and functionality within an application. 
+Esta historia contiene el mismo mensaje que el requisito tradicional de ASVS, con detalles adicionales del usuario o del atacante para ayudar a que el requisito sea más verificable.
 
-### Discovery and Selection
-The process begins with discovery and selection of security requirements. In this phase, the developer is understanding security requirements from a standard source such as ASVS and choosing which requirements to include for a given release of an application. The point of discovery and selection is to choose a manageable number of security requirements for this release or sprint, and then continue to iterate for each sprint, adding more security functionality over time.
+## Implementación
 
-### Investigation and Documentation
-During investigation and documentation, the developer reviews the existing application against the new set of security requirements to determine whether the application currently meets the requirement or if some development is required. This investigation culminates in the documentation of the results of the review.
+El uso exitoso de los requisitos de seguridad implica cuatro pasos. El proceso incluye descubrir/seleccionar, documentar, implementar y luego confirmar la implementación correcta de nuevas funciones y funciones de seguridad dentro de una aplicación.
 
-### Implementation
-After the need is determined for development, the developer must now modify the application in some way to add the new functionality or eliminate an insecure option. In this phase the developer first determines the design required to address the requirement, and then completes the code changes to meet the requirement.
+### Descubrimiento y Selección
 
-### Test
-Test cases should be created to confirm the existence of the new functionality or disprove the existence of a previously insecure option.
+El proceso comienza con el descubrimiento y la selección de los requisitos de seguridad. En esta fase, el desarrollador comprende los requisitos de seguridad de una fuente estándar como ASVS y elige qué requisitos incluir para una versión determinada de una aplicación. El objetivo del descubrimiento y la selección es elegir una cantidad manejable de requisitos de seguridad para esta versión o sprint, y luego continuar iterando para cada sprint, agregando más funciones de seguridad con el tiempo.
 
-## Vulnerabilities Prevented
-Security requirements define the security functionality of an application. Better security built in from the beginning of an applications life cycle results in the prevention of many types of vulnerabilities. 
+### Investigación y Documentación
 
-## References
-* [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
-* [OWASP Mobile Application Security Verification Standard (MASVS)](https://owasp.org/www-project-mobile-security-testing-guide/)
-* [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
+Durante la investigación y la documentación, el desarrollador revisa la aplicación existente con respecto al nuevo conjunto de requisitos de seguridad para determinar si la aplicación actualmente cumple con el requisito o si se requiere algún desarrollo. Esta investigación culmina con la documentación de los resultados de la revisión.
+
+### Implementación
+
+Una vez que se determina la necesidad de desarrollo, el desarrollador ahora debe modificar la aplicación de alguna manera para agregar la nueva funcionalidad o eliminar una opción insegura. En esta fase, el desarrollador primero determina el diseño requerido para abordar el requisito y luego completa los cambios de código para cumplir con el requisito.
+
+### Prueba
+
+Se deben crear casos de prueba para confirmar la existencia de la nueva funcionalidad o refutar la existencia de una opción previamente insegura.
+
+## Vulnerabilidades Prevenidas
+
+Los requisitos de seguridad definen la funcionalidad de seguridad de una aplicación. Una mejor seguridad incorporada desde el comienzo del ciclo de vida de una aplicación da como resultado la prevención de muchos tipos de vulnerabilidades.
+
+## Referencias
+
+* [Estándar de Verificación de Seguridad en Aplicaciones (ASVS, por sus siglas en inglés)](https://owasp.org/www-project-application-security-verification-standard/)
+* [OWASP Estándar de Verificación de Seguridad en Aplicaciones Móviles (MASVS, por sus siglas en inglés)](https://owasp.org/www-project-mobile-security-testing-guide/)
+* [OWASP Top Ten](https://owasp.org/Top10/)

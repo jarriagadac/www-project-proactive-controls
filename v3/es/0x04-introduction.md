@@ -17,11 +17,11 @@ Uno de los principales objetivos de este documento es proporcionar una guía pr�
 
 La lista está ordenada por importancia, siendo el elemento número 1 de la lista el más importante:
 
-* C1: Definir requisitos de seguridad
+* C1: Definir Requisitos de Seguridad
 * C2: Aprovechar Marcos de Trabajo y Librerías de Seguridad
 * C3: Acceso seguro a la Base de Datos
-* C4: Codificar y escapar datos
-* C5: Validar todas las entradas
+* C4: Codificar y escapar Datos
+* C5: Validar todas las Entradas
 * C6: Implementar Identidad Digital
 * C7: Hacer cumplir los Controles de Acceso
 * C8: Proteger Datos en todas partes
@@ -38,7 +38,7 @@ Este documento está escrito principalmente para desarrolladores. Sin embargo, l
 
 ## Cómo utilizar este Documento
 
-Este documento está destinado a proporcionar una conciencia inicial sobre la creación de software seguro. Este documento también proporcionará una buena base de temas para ayudar a impulsar la capacitación introductoria de desarrolladores de seguridad de software. Estos controles se deben usar de manera consistente y exhaustiva en todas las aplicaciones. Sin embargo, este documento debe verse como un punto de partida en lugar de un conjunto completo de técnicas y prácticas. Un proceso de desarrollo completamente seguro debe incluir requisitos completos de un estándar como [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/), además de incluir una variedad de actividades de desarrollo de software descritas en modelos de madurez como [OWASP SAMM] (https://owasp.org/www-project-samm/) y [BSIMM](https://www.bsimm.com/).
+Este documento está destinado a proporcionar una visión inicial sobre la creación de software seguro. Este documento también proporcionará una buena base de temas para ayudar a impulsar la capacitación introductoria de desarrolladores de seguridad de software. Estos controles se deben usar de manera consistente y exhaustiva en todas las aplicaciones. Sin embargo, este documento debe verse como un punto de partida en lugar de un conjunto completo de técnicas y prácticas. Un proceso de desarrollo completamente seguro debe incluir requisitos completos de un estándar como [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/), además de incluir una variedad de actividades de desarrollo de software descritas en modelos de madurez como [OWASP SAMM] (https://owasp.org/www-project-samm/) y [BSIMM](https://www.bsimm.com/).
 
 ## Enlace al proyecto OWASP Top 10
 
