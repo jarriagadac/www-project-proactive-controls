@@ -62,7 +62,8 @@ Use the extensive [project presentation](https://github.com/OWASP/www-project-pr
 - Colin Watson 
 - Jason Coleman 
 - Cassio Goldschmidt
-- [Wallace Soares](https://www.linkedin.com/in/soareswallace1/) (Brazilian Portuguese Translation) 
+- [Wallace Soares](https://www.linkedin.com/in/soareswallace1/) (Brazilian Portuguese Translation)
+- [Juan Arriagada](mailto:juan.arriagada@owasp.org) (Latin Spanish Translation)
 
 
 
