@@ -2,7 +2,7 @@
 
 layout: col-document
 tags: OWASP Top Ten Controles Proactivos 2018, C1
-document: OWASP Top Ten Proactive Controls 2018
+document: OWASP Top Ten Controles Proactivos 2018
 order: 5
 
 ---

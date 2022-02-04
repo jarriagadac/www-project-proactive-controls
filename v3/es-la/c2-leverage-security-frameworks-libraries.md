@@ -1,28 +1,31 @@
 ---
 
 layout: col-document
-tags: OWASP Top Ten Proactive Controls 2018, C2
-document: OWASP Top Ten Proactive Controls 2018
+tags: OWASP Top Ten Controles Proactivos 2018, C2
+document: OWASP Top Ten Controles Proactivos 2018
 order: 6
 
 ---
+# C2: Aprovechar la Seguridad de Frameworks y Librerías
 
-# C2: Leverage Security Frameworks and Libraries
+## Descripción
 
-## Description
-Secure coding libraries and software frameworks with embedded security help software developers guard against security-related design and implementation flaws. A developer writing an application from scratch might not have sufficient knowledge, time, or budget to properly implement or maintain security features. Leveraging security frameworks helps accomplish security goals more efficiently and accurately.
+Las librerías de codificación segura y los marcos de trabajo de software con seguridad embebida ayudan a los desarrolladores de software a protegerse contra fallas de diseño e implementación relacionadas con la seguridad. Un desarrollador que escribe una aplicación desde cero podría no tener suficiente conocimiento, tiempo o presupuesto para implementar o mantener correctamente las funciones de seguridad. Aprovechar la seguridad en los marcos de trabajo ayuda a lograr los objetivos de seguridad de manera más eficiente y precisa.
 
-## Implementation Best Practices
-When incorporating third party libraries or frameworks into your software, it is important to consider the following best practices:
+## Buenas Prácticas de Implementación
 
-1. Use libraries and frameworks from trusted sources that are actively maintained and widely used by many applications.
-2. Create and maintain an inventory catalog of all the third party libraries.
-3. Proactively keep libraries and components up to date. Use a tool like [OWASP Dependency Check](https://owasp.org/www-project-dependency-check/) and [Retire.JS](https://retirejs.github.io/retire.js/) to identify project dependencies and check if there are any known, publicly disclosed vulnerabilities for all third party code.
-4. Reduce the attack surface by encapsulating the library and expose only the required behaviour into your software.
+Al incorporar bibliotecas o marcos de trabajo de terceros en su software, es importante tener en cuenta las siguientes buenas prácticas:
 
-## Vulnerabilities Prevented
-Secure frameworks and libraries can help to prevent a wide range of web application vulnerabilities. It is critical to keep these frameworks and libraries up to date as described in the [using components with known vulnerabilities [Top Ten 2017 risks](https://owasp.org/www-project-top-ten/).
+1. Use librerías y marcos de trabajo de fuentes confiables que se mantienen activamente y son ampliamente utilizados por muchas aplicaciones.
+2. Cree y mantenga un inventario de todas las librerías de terceros.
+3. Mantenga actualizadas de forma proactiva las bibliotecas y los componentes. Use una herramienta como [Comprobador de Dependencias de OWASP](https://owasp.org/www-project-dependency-check/) y [Retire.JS](https://retirejs.github.io/retire.js/) para identificar las dependencias del proyecto y comprobar si hay vulnerabilidades conocidas y divulgadas públicamente para todos los códigos de terceros.
+4. Reduzca la superficie de ataque encapsulando la biblioteca y exponga solo el comportamiento requerido en su software.
 
-## Tools
-* [OWASP Dependency Check](https://owasp.org/www-project-dependency-check/) - identifies project dependencies and checks for publicly disclosed vulnerabilities
-* [Retire.JS](http://retirejs.github.io/retire.js/) scanner for JavaScript libraries
+### Vulnerabilidades Prevenidas
+
+Las librerías de codificación segura y los marcos de trabajo de software con seguridad embebida pueden ayudar a prevenir una amplia gama de vulnerabilidades en las aplicaciones web. Es fundamental mantener actualizados estos marcos de trabajo y librerías, tal como se describe en [usar componentes con vulnerabilidades conocidas [Diez Riesgos Principales de 2017] (https://owasp.org/www-project-top-ten/).
+
+## Herramientas
+
+* [Comprobador de Dependencias de OWASP](https://owasp.org/www-project-dependency-check/) - identifica las dependencias del proyecto y verifica las vulnerabilidades divulgadas públicamente
+* [Retire.JS](http://retirejs.github.io/retire.js/) escáner para librerías de JavaScript
