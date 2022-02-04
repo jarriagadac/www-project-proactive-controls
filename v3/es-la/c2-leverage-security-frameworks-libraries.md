@@ -23,7 +23,7 @@ Al incorporar bibliotecas o marcos de trabajo de terceros en su software, es imp
 
 ### Vulnerabilidades Prevenidas
 
-Las librerías de codificación segura y los marcos de trabajo con seguridad embebida pueden ayudar a prevenir una amplia gama de vulnerabilidades en las aplicaciones web. Es fundamental mantener actualizados estos marcos de trabajo y librerías, tal como se describe en [usar componentes con vulnerabilidades conocidas [Diez Riesgos Principales de 2017] (https://owasp.org/www-project-top-ten/).
+Las librerías de codificación segura y los marcos de trabajo con seguridad embebida pueden ayudar a prevenir una amplia gama de vulnerabilidades en las aplicaciones web. Es fundamental mantener actualizados estos marcos de trabajo y librerías, tal como se describe en [usar componentes con vulnerabilidades conocidas [Diez Riesgos Principales de 2017](https://owasp.org/www-project-top-ten/).
 
 ## Herramientas
 
