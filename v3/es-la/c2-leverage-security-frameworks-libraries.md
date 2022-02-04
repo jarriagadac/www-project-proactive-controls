@@ -21,7 +21,7 @@ Al incorporar bibliotecas o marcos de trabajo de terceros en su software, es imp
 3. Mantenga actualizadas de forma proactiva las bibliotecas y los componentes. Use una herramienta como [Comprobador de Dependencias de OWASP](https://owasp.org/www-project-dependency-check/) y [Retire.JS](https://retirejs.github.io/retire.js/) para identificar las dependencias del proyecto y comprobar si hay vulnerabilidades conocidas y divulgadas públicamente para todos los códigos de terceros.
 4. Reduzca la superficie de ataque encapsulando la biblioteca y exponga solo el comportamiento requerido en su software.
 
-### Vulnerabilidades Prevenidas
+## Vulnerabilidades Prevenidas
 
 Las librerías de codificación segura y los marcos de trabajo con seguridad embebida pueden ayudar a prevenir una amplia gama de vulnerabilidades en las aplicaciones web. Es fundamental mantener actualizados estos marcos de trabajo y librerías, tal como se describe en [usar componentes con vulnerabilidades conocidas [Diez Riesgos Principales de 2017](https://owasp.org/www-project-top-ten/).
 
