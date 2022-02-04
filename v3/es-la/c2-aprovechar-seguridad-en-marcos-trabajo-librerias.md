@@ -6,7 +6,7 @@ document: OWASP Top Ten Controles Proactivos 2018
 order: 6
 
 ---
-# C2: Aprovechar la Seguridad de Frameworks y Librerías
+# C2: Aprovechar la Seguridad en Marcos de Trabajo y Librerías
 
 ## Descripción
 
