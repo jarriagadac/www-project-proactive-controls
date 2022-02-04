@@ -10,7 +10,7 @@ order: 6
 
 ## Descripción
 
-Las librerías de codificación segura y los marcos de trabajo de software con seguridad embebida ayudan a los desarrolladores de software a protegerse contra fallas de diseño e implementación relacionadas con la seguridad. Un desarrollador que escribe una aplicación desde cero podría no tener suficiente conocimiento, tiempo o presupuesto para implementar o mantener correctamente las funciones de seguridad. Aprovechar la seguridad en los marcos de trabajo ayuda a lograr los objetivos de seguridad de manera más eficiente y precisa.
+Las librerías de codificación segura y los marcos de trabajo con seguridad embebida ayudan a los desarrolladores de software a protegerse contra fallas de diseño e implementación relacionadas con la seguridad. Un desarrollador que escribe una aplicación desde cero podría no tener suficiente conocimiento, tiempo o presupuesto para implementar o mantener correctamente las funciones de seguridad. Aprovechar la seguridad en los marcos de trabajo ayuda a lograr los objetivos de seguridad de manera más eficiente y precisa.
 
 ## Buenas Prácticas de Implementación
 
@@ -23,7 +23,7 @@ Al incorporar bibliotecas o marcos de trabajo de terceros en su software, es imp
 
 ### Vulnerabilidades Prevenidas
 
-Las librerías de codificación segura y los marcos de trabajo de software con seguridad embebida pueden ayudar a prevenir una amplia gama de vulnerabilidades en las aplicaciones web. Es fundamental mantener actualizados estos marcos de trabajo y librerías, tal como se describe en [usar componentes con vulnerabilidades conocidas [Diez Riesgos Principales de 2017] (https://owasp.org/www-project-top-ten/).
+Las librerías de codificación segura y los marcos de trabajo con seguridad embebida pueden ayudar a prevenir una amplia gama de vulnerabilidades en las aplicaciones web. Es fundamental mantener actualizados estos marcos de trabajo y librerías, tal como se describe en [usar componentes con vulnerabilidades conocidas [Diez Riesgos Principales de 2017] (https://owasp.org/www-project-top-ten/).
 
 ## Herramientas
 
